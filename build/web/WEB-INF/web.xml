@@ -1,0 +1,20 @@
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         id="WebApp_ID" version="4.0">
+
+    <display-name>SimpleWebApp</display-name>
+    
+    <!-- Cấu hình taglib cho JSTL Core -->
+    <jsp-config>
+        <taglib>
+            <taglib-uri>http://java.sun.com/jsp/jstl/core</taglib-uri>
+            <taglib-location>/WEB-INF/lib/jstl-1.2.jar</taglib-location>
+        </taglib>
+    </jsp-config>
+    
+    <welcome-file-list>
+        <welcome-file>view/jsp/admin/admin_home.jsp</welcome-file>
+    </welcome-file-list>
+
+</web-app>
