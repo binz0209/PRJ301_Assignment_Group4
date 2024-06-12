@@ -14,7 +14,7 @@
     </jsp-config>
     
     <welcome-file-list>
-        <welcome-file>view/jsp/admin/admin_home.jsp</welcome-file>
+        <welcome-file>view/jsp/home/home.jsp</welcome-file>
     </welcome-file-list>
 
 </web-app>
