@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Context path="/PRJ_Assignment"/>
+<Context path="/PRJ_Assignment">
+    <Resource
+        name="DBCon" type ="javax.sql.DataSource" auth="Container"
+        driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+        url ="jdbc:sqlserver://localhost:1433;databaseName=YonShop"
+        username="sa" password="1312"
+    />
+</Context>
+
